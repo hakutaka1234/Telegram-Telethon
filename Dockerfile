@@ -2,7 +2,7 @@
 #      Created by: Nande
 #=========× Nande ×=========#
 
-FROM telegramuserbot/telegrambot:telegram
+FROM nandeuserbot/nandebot:nande
 
 RUN git clone -b Telegram-Telethon https://github.com/hakutaka1234/Telegram-Telethon /home/telegrambot/ \
     && chmod 777 /home/telegrambot \
